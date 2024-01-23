@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- custom style link -->
+    <link rel="stylesheet" href="../style.css" />
+
+    <!-- Jquery -->
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+
+        <!-- favicon -->
+        <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
+
+
+    <!-- icons link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Student Satck</title>
+  </head>
+  <body>
+    <!-- navigation -->
+    <nav>
+      <img src="../images/logo.png" alt="" />
+      <div class="navigation">
+        <ul>
+          <i id="menu-close" class="fas fa-times"></i>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../about.html">About</a></li>
+          <li><a href="../student-blogs.html">Blog</a></li>
+          <li><a href="../course.html">Courses</a></li>
+          <li><a href="../books.html">Books</a></li>
+        </ul>
+        <img id="menu-btn" src="../images/menu.png" alt="">
+      </div>
+    </nav>
+
+     <!-- blog -->
+     <section id="blog-container">
+        <div class="blogs blogpost">
+
+            <div class="post">
+                <img src="../images/blog 5.jpg" alt="">
+                <h3>
+                    Pakistan Talent Olympiad Scholarship 2023
+                </h3>
+                <p>
+                    If you are a deserving student, with Pakistan Talent Olympiad it is easy to apply for financial assistance. Monthly scholarships are offered for deserving and talented students from Intermediate to DAE, Graduation, and 
+                    <br><br>
+                    Post Graduation and Professional courses in any field within Pakistan. Students of various levels from intermediate to master/professional level from all the provinces of Pakistan including Gilgit/Baltistan can apply for scholarship.
+              </p>
+                    <a href="../scholarship-blogs.html">Read Next</a>
+                    
+              </div>
+        </div>
+
+        </div>
+     </section>
+
+
+    <!-- footer -->
+    <footer>
+      <div class="footer-col">
+        <h3>Top Products</h3>
+        <li>Manage </li>
+        <li>power</li>
+        <li>managed services</li>
+        <li>managed website</li>
+      </div>
+      <div class="footer-col">
+        <h3>Quick links</h3>
+        <li>jobs </li>
+        <li>pbrand assets</li>
+        <li>inverstor reiations</li>
+        <li>terms of services</li>
+      </div>
+      <div class="footer-col">
+        <h3>Features</h3>
+        <li>Manage repulation</li>
+        <li>power tools</li>
+        <li>managed services</li>
+        <li>managed website</li>
+      </div>
+      <div class="footer-col">
+        <h3>Resourse</h3>
+        <li>Manage repulation</li>
+        <li>power tools</li>
+        <li>managed services</li>
+        <li>managed website</li>
+      </div>
+
+      <div class="footer-col">
+        <h3>newslater</h3>
+        <p>Lorem ipsum dolor sit amet consectetur.</p>
+        <div class="subscribe">
+          <input type="text" placeholder="enter your email">
+          <a href="#" class="yellow">Subscribe</a>
+        </div>
+      </div>
+
+      <div class="copyright">
+        <p>copyright &copy; 2023 | All right reserved to S.M Govt College</p>
+        <div class="pro-links">
+          <i class="fab fa-facebook-f"></i>
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-linkedin-in"></i>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      $('#menu-btn').click(function(){
+        $('nav .navigation ul').addClass('active')
+      })
+      $('#menu-close').click(function(){
+        $('nav .navigation ul').removeClass('active')
+      })
+    </script>
+  </body>
+</html>

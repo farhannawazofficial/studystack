@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- custom style link -->
+    <link rel="stylesheet" href="../style.css" />
+
+    <!-- Jquery -->
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+    
+        <!-- favicon -->
+        <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
+
+        
+    <!-- icons link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Student Stack</title>
+  </head>
+  <body>
+    <!-- navigation -->
+    <nav>
+      <img src="../images/logo.png" alt="" />
+      <div class="navigation">
+        <ul>
+          <i id="menu-close" class="fas fa-times"></i>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../about.html">About</a></li>
+          <li><a href="../student-blogs.html">Blog</a></li>
+          <li><a href="../course.html">Courses</a></li>
+          <li><a href="../books.html">Books</a></li>
+        </ul>
+        <img id="menu-btn" src="../images/menu.png" alt="">
+      </div>
+    </nav>
+
+     <!-- blog -->
+     <section id="blog-container">
+        <div class="blogs blogpost">
+
+            <div class="post">
+                <img src="../images/blog 7.jpg" alt="">
+                <h3>
+                    Tips and Tools for Time Management
+                </h3>
+                <p>
+                   <h6> 1.     Prioritize</h6>
+
+                    First step: Think about what really matters to you. What are your top goals for this year? Write them down, organizing your list by:
+                    <ul>
+                        <li>Goal</li>
+                        <li>Steps to accomplish that goal</li>
+                        <li> What will you gain by accomplishing that goal</li>
+                    </ul>
+                    <br><br>
+                  <h6>  2.     Create a Schedule / Time-Budget </h6>
+                  Organization is a huge component of good time management. Humans seek structure in our lives. Once we establish a schedule and make it routine, we can accomplish more, in a shorter period of time. With less stress.
+
+                  You know how much time you have in a day – it’s finite and unchanging. Budget that time, just as you would budget your income. 
+                  <br><br>
+                  <h6>3.   Create a To-Do List</h6>
+                
+
+Nothing keeps you on track better than a “To-Do List,” which the corporate world calls an “action item” list. Make your list every day and list everything. Along with major items like “Complete math assignment” or “Read Chapter 10”. Don’t forget administrative tasks such as “Get birthday card for Julie” or “Call Grandma.”
+<br><br>
+<h6>4.    Focus</h6>
+
+
+Speaking of procrastination, that’s one of the biggest enemies of time management. You know the other major problem: distraction. You probably know what your biggest distraction is, too... Most likely it’s your phone.
+<br><br>
+
+<h6>5. Find your Motivation</h6>
+Motivation is often tied into your goals, and the benefits you’ll receive by accomplishing them. Review your goals often, to stay inspired, motivated, and on-course.
+
+You should also reward yourself for staying on schedule or accomplishing a goal. Choose a treat that’s especially satisfying to you. For example, give yourself 30 minutes of screen time for every 90 minutes of studying. Or take yourself out if you got a good grade on your test.
+              </p>
+              <a href="../toolsblogs.html">Read Next</a>
+                    
+              </div>
+        </div>
+
+        </div>
+     </section>
+
+
+    <!-- footer -->
+    <footer>
+      <div class="footer-col">
+        <h3>Top Products</h3>
+        <li>Manage </li>
+        <li>power</li>
+        <li>managed services</li>
+        <li>managed website</li>
+      </div>
+      <div class="footer-col">
+        <h3>Quick links</h3>
+        <li>jobs </li>
+        <li>pbrand assets</li>
+        <li>inverstor reiations</li>
+        <li>terms of services</li>
+      </div>
+      <div class="footer-col">
+        <h3>Features</h3>
+        <li>Manage repulation</li>
+        <li>power tools</li>
+        <li>managed services</li>
+        <li>managed website</li>
+      </div>
+      <div class="footer-col">
+        <h3>Resourse</h3>
+        <li>Manage repulation</li>
+        <li>power tools</li>
+        <li>managed services</li>
+        <li>managed website</li>
+      </div>
+
+      <div class="footer-col">
+        <h3>newslater</h3>
+        <p>Lorem ipsum dolor sit amet consectetur.</p>
+        <div class="subscribe">
+          <input type="text" placeholder="enter your email">
+          <a href="#" class="yellow">Subscribe</a>
+        </div>
+      </div>
+
+      <div class="copyright">
+        <p>copyright &copy; 2023 | All right reserved to S.M Govt College</p>
+        <div class="pro-links">
+          <i class="fab fa-facebook-f"></i>
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-linkedin-in"></i>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      $('#menu-btn').click(function(){
+        $('nav .navigation ul').addClass('active')
+      })
+      $('#menu-close').click(function(){
+        $('nav .navigation ul').removeClass('active')
+      })
+    </script>
+  </body>
+</html>
